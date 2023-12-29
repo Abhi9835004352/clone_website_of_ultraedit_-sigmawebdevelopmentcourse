@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        .logo{
+        }
+        .logo img{
+            width:164px;
+        }
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            gap:34px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .right ul{
+            display:flex;
+            gap:15px;
+            align-items: center;
+        }
+        .right ul li{
+            list-style: none;
+            cursor:pointer;
+        }
+        .headline{
+            display:flex;
+            align-items: center;
+            gap:10px;
+            justify-content: center;
+            transform: translate(-90px);
+        }        
+        .headline h5{
+            transform:translate(0px,5px);
+        }
+        .downloadlinks{
+            display:inline-grid;
+            grid-template-columns: 320px 320px 320px;
+            column-gap:50px;
+            row-gap:20px;
+
+        }
+        .grid_item{
+            background-color: aqua;
+            text-align: center;
+
+        }
+        .mainbody{
+            display:flex;
+            justify-content:center;
+        }
+        a{
+
+            border:2px solid red;
+            border-radius: 5px;
+            background-color: yellow;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Product </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</li>
+                    <li><span>Pricing </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</li>
+                    <li><span>Resources</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</li>
+                    <li><span>About us</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</li>
+                    <li><img src="google_translate_logo.png"></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- body of the website -->
+    <div class="headline">
+        <img src="logo_small.png" alt="logo_small">
+        <h2>Download UltraEdit </h2>
+        <h5> v2023.2(released 12/15/2023)| Hotfix</h5>
+    </div>
+    <div class="mainbody">
+        <div class="downloadlinks">
+            <div class="grid_item">
+                English
+                <h5>English</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                Deutsch
+                <h5>German</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">z
+                Italiano
+                <h5>Italian</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                Español
+                <h5>Spanish</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                français
+                <h5>French</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                Português brasileiro
+                <h5>Brazilian Portugues</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                日本
+                <h5>Japanese</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                한국어
+                <h5>Korean</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                中国
+                <h5>Chinese</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+            <div class="grid_item">
+                中國
+                <h5>Traditional chinese</h5>
+                <a href="ue_english.exe">Downlaod 32bit</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
